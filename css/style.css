@@ -15,6 +15,24 @@ header{
     padding: 10px;
 }
 
+section{
+    padding: 20px;
+    background: url('../images/people.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    background-image: url("../images/arrow.jpg");
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
 .container{
     max-width: 1000px;
     margin: auto;
@@ -22,4 +40,57 @@ header{
 
 .title{
     font-size: 26px;
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: #ffffffBB;
+    padding: 10px;
+    float: right;
+}
+
+.formContainer h2{
+    font-size: 16px;
+}
+
+.formContainer input, .formContainer select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.formContainer input[type="submit"]{
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.marginBottom{
+    margin-bottom: 15px;
+}
+
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture{
+    width: 160px;
+
+}
+
+.description{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.description p, .description h3{
+    margin-bottom: 20px;
 }
